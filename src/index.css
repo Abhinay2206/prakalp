@@ -1221,6 +1221,7 @@ a, button, input, [role="button"] {
   border: var(--border-glass);
   border-radius: var(--radius-xl);
   overflow-y: auto;
+  overscroll-behavior: contain;
   position: relative;
 }
 
