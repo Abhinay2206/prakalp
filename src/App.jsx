@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion';
+import { ReactLenis } from 'lenis/react';
 import { useCSVData } from './hooks/useCSVData';
 import Preloader from './components/Preloader';
 import CustomCursor from './components/CustomCursor';
@@ -11,6 +12,38 @@ import ShowcaseSection from './components/ShowcaseSection';
 import StatsSection from './components/StatsSection';
 import Footer from './components/Footer';
 
+function ParallaxBackgrounds() {
+  const { scrollYProgress } = useScroll();
+  
+  // Parallax translation speeds for the background layers
+  const y1 = useTransform(scrollYProgress, [0, 1], ['0%', '50%']);
+  const y2 = useTransform(scrollYProgress, [0, 1], ['0%', '-50%']);
+  const y3 = useTransform(scrollYProgress, [0, 1], ['0%', '30%']);
+  const yGrid = useTransform(scrollYProgress, [0, 1], ['0%', '40%']);
+
+  return (
+    <>
+      <motion.div 
+        className="grid-bg" 
+        style={{ 
+          y: yGrid,
+          height: '150vh',
+          top: '-25vh'
+        }} 
+      />
+      <motion.div style={{ y: y1, position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, pointerEvents: 'none', zIndex: 0 }}>
+        <div className="bg-gradient-orb bg-orb-1" />
+      </motion.div>
+      <motion.div style={{ y: y2, position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, pointerEvents: 'none', zIndex: 0 }}>
+        <div className="bg-gradient-orb bg-orb-2" />
+      </motion.div>
+      <motion.div style={{ y: y3, position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, pointerEvents: 'none', zIndex: 0 }}>
+        <div className="bg-gradient-orb bg-orb-3" />
+      </motion.div>
+    </>
+  );
+}
+
 export default function App() {
   const [loading, setLoading] = useState(true);
   const { data, stats, loading: dataLoading, error } = useCSVData();
@@ -20,7 +53,7 @@ export default function App() {
   };
 
   return (
-    <>
+    <ReactLenis root>
       <AnimatePresence mode="wait">
         {loading && <Preloader key="preloader" onComplete={handlePreloadComplete} />}
       </AnimatePresence>
@@ -29,11 +62,7 @@ export default function App() {
         <>
           <CustomCursor />
           
-          {/* Background effects */}
-          <div className="grid-bg" />
-          <div className="bg-gradient-orb bg-orb-1" />
-          <div className="bg-gradient-orb bg-orb-2" />
-          <div className="bg-gradient-orb bg-orb-3" />
+          <ParallaxBackgrounds />
 
           <Navbar />
           
@@ -63,6 +92,6 @@ export default function App() {
           <Footer />
         </>
       )}
-    </>
+    </ReactLenis>
   );
 }
