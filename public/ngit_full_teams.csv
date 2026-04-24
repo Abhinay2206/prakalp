@@ -1,0 +1,31 @@
+Stream,Team No,Title,Team Members,Guide
+Basic Sciences,BS-01,Linear regression,"Harsha Sairam (245325733036, CSE-A); BNS Kartheek (245325733011, CSE-A); Nikhilesh (245325733086, CSE-B); Yeshwanth (245325733067, CSE-B)",Mrs. Veena
+Basic Sciences,BS-02,Bioplastic from cornstarch,"H. Swetha (245325733418, E); K. Akshitha (245325733437, E); J. Mallika (245325733423, E); S. Anusha (245325733455, E)",Mrs. V. Saritha
+Basic Sciences,BS-03,Smart soil analysis,"M. Siri Reddy (245325748038, CSM-A); P. Vedha (245325748043, CSM-A); K. Chandana (245325748024, CSM-A); M. Sai Likhitha (245325748031, CSM-A)",Dr. V. Padmavathi
+Basic Sciences,BS-04,Biodegradable plastics,"Kusma (245325733204, CSE-D); Sankeerthana (245325733203, CSE-D); Hansika Santosh (245325733210, CSE-D); Sri Vidya (245325733197, CSE-D); Hafiz (245325733248, CSE-D)",Dr. V. Padmavathi
+Basic Sciences,BS-05,Cultural Engine,"Mohammed Abdul Mugeet (245325733103, CSE-B); A. Yeshwant (245325733067, CSE-B); C. Tej (245325733077, CSE-B)",Mr. Pavani
+Basic Sciences,BS-06,Adaptive route optimizer,"Bollam Vinoothna (245325748013); Bhattu Pranava Sharanya (245325748007); Ballary Akshaya (245325748005); Bhimanpally Bhavya Sri (245325748009)",Mr. Ramalingam
+Basic Sciences,BS-07,NPK,"Vihann Mogurum (245325733167); Sai Rishik Garipelli (245325733180); Vivek Singh (245325733186); Sai Ram Saketh (245325733145); Vishwaksena (245325733188)",Mrs. V. Saritha
+Basic Sciences,BS-08,Smart Milk Purity Test Strip,"Sruthi P (245325748121); T. Sowrya (245325733125); A. Vishwa (245325733004); Manas (245325733160)",Mrs. V. Saritha
+Basic Sciences,BS-09,Carbon purification (Air),"Y. Srija Reddy (245325733065); S. Srilasya Reddy (245325733059); K. Vathsalya Sindhu (245325733023)",Mrs. V. Saritha
+Basic Sciences,BS-10,Projectile Motion,"S. Sreemukha Sharma (245325733181); N. Sree Dhruti (245325733184); V. Vamshi Krishna Yadav (245325733191); M. Revanth (245325733162)",Mr. P. Pramod
+Basic Sciences,BS-11,Breath analyser auto lock vehicle,"Sripad (245325733122); Abhinav (245325733076); Saketh (245325733106); Pratheek (245325733113)",Mr. P. Pramod
+Basic Sciences,BS-12,Laser security system,"Karagani Sri Vijaya Sahasra (245325733091); Muniganti Srimukhi (245325733104); P. Monika Sreya (245325733108); Aishwarya Likki (245325733098)",Mr. P. Pramod
+Basic Sciences,BS-13,Fire Detection using Sound,"Suchay Joshi (245325733058); Raghu (245325733046); AJ Nandan (245325733070); Akhil Ram (245325733201)",Mr. T Satish
+Basic Sciences,BS-14,Generator,"Juluru Hima Keerthana (245325733021); Kilari Pavani Krishna (245325733027); Padala Rishitha (245325733038); Gottapu Rishitha (245325733019); Shrinidhi (245325733053)",Mr. T Satish
+Basic Sciences,BS-15,Laser security system,"Lakshya (245325748029); others (245325748032, 245325748040, 245325748028)",Mr. T Satish
+Basic Sciences,BS-16,Extraction of chemical constitutions from sanjivani,"Sankeerthana (245325733203); Kusma (245325733204); Sri Vidya (245325733197); Hansika (245325733210)",Dr. V. Padmavathi
+Basic Sciences,BS-17,Phyto flux,"Aashrith Ravula (245325748050); Shreyas Appagoni (245325748003); Gowri Ainapur (245325748021)",Dr. V. Padmavathi
+Basic Sciences,BS-18,Invisible induction,"C. Jahnavi (254325758077); N. Neerajakshi (245325748104)",Mr. P. Pramod
+Basic Sciences,BS-19,Biodiesel synthesis from waste cooking oil,"M. Tejashwini (245325733219)",Dr. V. Padmavathi
+
+Engineering,ENG-01,Smart Technology swarm based satellite protection,"Venkata Srinidhi (245325748060); Datta Sai Ram (245325748015); Yadavalli Charishma (245325748064); Anumula Hari Priya (245325748022)",Mr. Vijayratnababu
+Engineering,ENG-02,Drone system,"B Spoorthy (245325748004); Mallikarjuna Abhishek (245325748001); B Srinidhi (245325748008); B Meher Adit (245325748014); V Charan Sai (245325748062)",Mr. Vijayratnababu & Mr. Satish
+Engineering,ENG-03,Generating Electricity,"M Sathwik (245325733247); Akhil Ram (245325733201); S Ramya (245325733245); P Jairam (245325733242)",Mr. Swamy
+Engineering,ENG-04,Fire Fighting Robot,"E Akshith Kumar (245325748017); M Yuvaraj Yadav (245325748034); G Aishwarya (245325748020); S Srividya (245325748056)",Mr. Swamy & Dr. V. Padmavathi
+Engineering,ENG-05,Power Paradox,"Dheeraj (245325748025); Raksha (245325748048); Saanvi (245325748054); Srivalli (245325748063)",Dr. Shabana
+Engineering,ENG-06,Footstep Power Generation,"J Hansika (245325748023); Syeda Zaina Hashmi (245325748057); Anushka (245325748002)",Mr. Satish & Mr. Swamy
+Engineering,ENG-07,Smart Waste Segregation Bin,"B Sai Pranav (245325733006); P Trivikram (245325733044); Chamakuri Snehith Reddy (245325733012); Koti Sacheth (245325733029); B Jagadeesh Varma (245325733007)",Mrs. G Ambica
+Engineering,ENG-08,Smart Two-wheeler Accident Detection using IoT,"Rajapeta SriVani (245325733177); Akkaladevi Pallavi (245325733133); T Dinesh (245325733189)",Dr. Subha Rao & Mr. Satish
+Engineering,ENG-09,Gradient Descent & Optimization Visualizer,"Syeda Mariam Zaidi (245325733185); Govindarajula Abhigna (245325733165); Jiya Borse (245325733085)",Dr. Subha Rao
+Engineering,ENG-10,Java Frontend,"N Shailender (245325733230); M Tejashwini (245325733219); N Prince Moses (245325733227); N Jashwanth (245325733228)",Dr. Shabana
